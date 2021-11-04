@@ -1,4 +1,6 @@
-package com.rasmoo.rasfood.core;
+package com.rasmoo.rasfood.core.impl;
+
+import com.rasmoo.rasfood.core.Readable;
 
 import javax.persistence.EntityManager;
 import java.util.List;

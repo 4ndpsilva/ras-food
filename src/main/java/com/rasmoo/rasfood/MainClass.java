@@ -1,7 +1,6 @@
 package com.rasmoo.rasfood;
 
-import com.rasmoo.rasfood.core.AbstractPersistableImplDAO;
-import com.rasmoo.rasfood.core.CrudImplDAO;
+import com.rasmoo.rasfood.core.impl.CrudImplDAO;
 import com.rasmoo.rasfood.dao.DishDAO;
 import com.rasmoo.rasfood.entity.Dish;
 

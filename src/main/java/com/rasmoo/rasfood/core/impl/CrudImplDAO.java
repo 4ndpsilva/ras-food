@@ -1,5 +1,8 @@
-package com.rasmoo.rasfood.core;
+package com.rasmoo.rasfood.core.impl;
 
+import com.rasmoo.rasfood.core.Persistable;
+import com.rasmoo.rasfood.core.Readable;
+import com.rasmoo.rasfood.core.TransactionManager;
 import com.rasmoo.rasfood.entity.Dish;
 import lombok.RequiredArgsConstructor;
 
@@ -8,7 +11,7 @@ import javax.persistence.TypedQuery;
 import java.util.List;
 
 @RequiredArgsConstructor
-public class CrudImplDAO<T> implements Persistable<T>, Readable<T>{
+public class CrudImplDAO<T> implements Persistable<T>, Readable<T> {
     private final EntityManager manager;
 
     @Override

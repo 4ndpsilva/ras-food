@@ -1,11 +1,13 @@
-package com.rasmoo.rasfood.core;
+package com.rasmoo.rasfood.core.impl;
 
+import com.rasmoo.rasfood.core.Persistable;
+import com.rasmoo.rasfood.core.TransactionManager;
 import lombok.RequiredArgsConstructor;
 
 import javax.persistence.EntityManager;
 
 @RequiredArgsConstructor
-public abstract class AbstractPersistableImplDAO<T> implements Persistable<T>{
+public abstract class AbstractPersistableImplDAO<T> implements Persistable<T> {
     private final EntityManager manager;
 
     @Override
